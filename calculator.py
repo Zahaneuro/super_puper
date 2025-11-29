@@ -4,6 +4,8 @@ app = CTk()
 app.geometry('400x500')
 app.title('carculator')
 
+#я хз що мож зробити
+
 result_text = ''
 def click(s):
     global result_text
@@ -36,5 +38,6 @@ clear = CTkButton(app, text='С', height=50, command=lambda s='c':click(s))
 result.pack(fill='x')
 layout.pack()
 clear.pack(fill='x')
+
 
 app.mainloop()
